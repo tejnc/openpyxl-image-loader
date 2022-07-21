@@ -1,6 +1,6 @@
 # Openpyxl Image Loader 0.1
 
-####This is a fork of Openpyxl Image Loader
+#### This is a fork of Openpyxl Image Loader
 Openpyxl wrapper that gets images from cells
 
 ## Requirements
