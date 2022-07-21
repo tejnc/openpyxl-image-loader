@@ -3,7 +3,7 @@ Contains a SheetImageLoader class that allow you to loadimages from a sheet
 """
 
 import io
-import string
+import openpyxl
 
 from PIL import Image
 
@@ -19,7 +19,7 @@ class SheetImageLoader:
         sheet_images = sheet._images
         for image in sheet_images:
             row = image.anchor._from.row + 1
-            col = string.ascii_uppercase[image.anchor._from.col]
+            col = openpyxl.utils.cell.get_column_letter(image.anchor._from.col + 1)
             self._images[f'{col}{row}'] = image._data
 
     def image_in(self, cell):
