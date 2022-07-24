@@ -19,7 +19,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.7',
     ],
-    packages=['openpyxl_image_loader-fork'],
+    packages=['openpyxl_image_loader_fork'],
     include_package_data=True,
     install_requires=['Pillow','openpyxl',],
 )
