@@ -10,7 +10,7 @@ setup(
     description='Openpyxl wrapper that gets images from cells',
     long_description=README,
     long_description_content_type='text/markdown',
-    url='https://github.com/mauricio-chavez/openpyxl-image-loader',
+    url='https://github.com/tejnc/openpyxl-image-loader',
     author='Tej Narayan Chaudhary',
     author_email='tejnarayan15.tnc@gmail.com',
     license='MIT',
@@ -19,7 +19,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.7',
     ],
-    packages=['openpyxl_image_loader'],
+    packages=['openpyxl_image_loader-fork'],
     include_package_data=True,
     install_requires=['Pillow','openpyxl',],
 )
