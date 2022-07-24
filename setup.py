@@ -5,7 +5,7 @@ BASE_DIR = pathlib.Path(__file__).parent
 README = (BASE_DIR / 'README.md').read_text()
 
 setup(
-    name='openpyxl-image-loader',
+    name='openpyxl-image-loader-fork',
     version='0.1.0',
     description='Openpyxl wrapper that gets images from cells',
     long_description=README,
